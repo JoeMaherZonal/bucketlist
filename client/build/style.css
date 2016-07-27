@@ -1,0 +1,75 @@
+
+html {
+ background:  url('./img/IllustratedWorldMapFull.png'), no-repeat center center fixed;
+ background-size: cover;
+ font-family: 'Allan', cursive;
+}
+
+body{
+ margin: 0;
+ text-align: center;
+ 
+}
+
+header{
+ background: linear-gradient(to bottom, rgba(255, 255, 255,0.9), rgba(0,0,0,0.0));
+ margin: 0;
+ height: 300px;
+ align-items: center;
+}
+
+h1 {
+ 
+ font-size: 150px;
+ color: #004e66 ; 
+ text-align: center;
+ padding-top: 50px;
+ margin: 0;
+}
+
+#textToDisplay {
+ background-color: #fcbe32 ;
+ height:43px;
+ transform: rotate(-7deg);
+ margin: 50px 0 0 0;
+ width: 1100px;
+ border-radius: 3px;
+ box-shadow: 2px 2px 3px #000;
+ font-size: 2rem;
+}
+
+#search{
+ width: 30%;
+ height: 30px;
+ padding: 12px 20px;
+ margin: 8px 7px;
+ border-radius: 1px;
+ box-shadow: 2px 2px 3px #000;
+ box-sizing: border-box;
+ border: none;
+ background-color: grey;
+}
+
+#button{
+ width: 30%;
+ height: 30px;
+ padding: 12px 20px;
+ margin: 8px 7px;
+ border-radius: 1px;
+ box-shadow: 2px 2px 3px #000;
+ box-sizing: border-box;
+ border: none;
+ background-color: grey;
+}
+
+
+p{
+ background-color: #fcbe32 ;
+ font-size: 18px;
+ height: 25px;
+ transform: rotate(-4deg);
+ margin: 50px 0 0 0;
+ width: 1100px;
+ border-radius: 3px;
+ box-shadow: 2px 2px 3px #000;
+}
