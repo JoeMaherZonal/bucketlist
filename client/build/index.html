@@ -5,18 +5,45 @@
   <script type="text/javascript" src='bundle.js'></script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=Allan|Ranga' rel='stylesheet' type='text/css'>
-</head><header><h1>Bucket List</h1>
+</head>
+<header>
+  <div class='row'>
+    <div class='col-12'>
+      <h1>Bucket List</h1>
+    </div>
+  </div>
 </header>
 <body>
+  <div class='row'>
+    <div class='col-2'></div>
+    <div class='col-8'>
+      <form>
+      <input id="search" type="text" placeholder="Search Countries">
+      <input type="button" id="searchCoutries" value="search">
+      </form>
+    </div>
+    <div class='col-2'></div>
+  </div>
 
-<form>
-<input id="search" type="text" placeholder="Search Countries">
-<input id="button" type="button" id="searchCoutries" value="search">
-</form>
+  <div class='row'>
+    <div class='col-2'></div>
+    <div class='col-4'>
+      <div id="results"></div>
+      <div id="error"></div>
+    </div>
+    <div class='col-4'>
+      <h5>To be the Globe</h5>
+    </div>
+    <div class='col-2'></div>
+  </div>
 
-<section1>
-  <div id="results"></div>
-  <div id="error"></div>
-</section1>
+  <div class='row'>
+    <div class='col-2'></div>
+    <div class='col-8' id='saved-countries'>
+      <!-- selected countries-->
+    </div>
+    <div class='col-2'></div>
+  </div>
+
 </body>
 </html>
